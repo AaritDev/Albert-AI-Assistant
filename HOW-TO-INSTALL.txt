@@ -10,7 +10,7 @@ Packages: requests, rich
 
 INSTALL STEPS:
 
-Open a terminal inside the extracted 'albert' folder.
+Open a terminal inside the extracted 'ALbert-AI-Assistant' folder.
 
 Run:
 chmod +x install.sh
@@ -29,7 +29,7 @@ echo $PATH
 export PATH="$PATH:$HOME/.local/bin"
 
 TO REMOVE:
-rm ~/.local/bin/albert
+rm ~/.local/bin/copilot.py
 and delete the alias line from ~/.bashrc
 
 CREATED BY: Aarit Pandey
