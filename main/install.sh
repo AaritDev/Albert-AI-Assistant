@@ -5,10 +5,10 @@ cd "$(dirname "$0")"
 chmod +x copilot.py
 
 mkdir -p ~/.local/bin
-cp copilot.py ~/.local/bin/albert
+cp copilot.py ~/.local/bin/
 
-if ! grep -Fxq "alias albert='~/.local/bin/albert'" ~/.bashrc; then
-    echo "alias albert='~/.local/bin/albert'" >> ~/.bashrc
+if ! grep -Fxq "alias albert='~/.local/bin/copilot.py'" ~/.bashrc; then
+    echo "alias albert='~/.local/bin/copilot.py'" >> ~/.bashrc
     echo "Added alias to .bashrc"
 else
     echo "Alias already exists in .bashrc"
