@@ -21,7 +21,7 @@ It remembers your conversations, runs completely offline, and integrates smoothl
 - Strong system able to run 8B param models locally
 
 To remove Albert:
-1. run "rm ~/.local/bin/albert"
+1. run "rm ~/.local/bin/copilot.py"
 2. Delete the alias from your ~/.bashrc (if added manually).
 
 Developed by Aarit Pandey
